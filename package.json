@@ -1,0 +1,33 @@
+{
+  "name": "fis-emao",
+  "version": "1.0.3",
+  "description": "front end module solution with modjs.",
+  "main": "fis-emao.js",
+  "bin": {
+    "emao": "bin/emao",
+    "fis-emao": "bin/emao"
+  },
+  "scripts": {
+    "uninstall": "node bin/emao server stop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wanhh/emao.git"
+  },
+  "keywords": [
+    "fis"
+  ],
+  "author": "wanhh",
+  "license": "emao-fe",
+  "bugs": {
+    "url": "https://github.com/wanhh/emao/issues"
+  },
+  "homepage": "https://github.com/wanhh/emao",
+  "dependencies": {
+    "fis": "^1.9.11"
+  }
+}
+
+
+
